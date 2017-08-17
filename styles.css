@@ -3,6 +3,7 @@ body {
   background-image: url("leonb.jpg");
   background-attachment: fixed;
   background-size: 100vw;
+  background-size:cover;
 
 }
 
@@ -114,33 +115,3 @@ font-weight: bold;
   font-family: 'Homemade Apple', cursive;
   font-size: 20px
 }
-
-@media only screen and (max-width: 768px) {
-  /* this is for mobile*/
-  body {
-
-    background-size:cover;
-  }
-
-  @media only screen and (max-width: 425px) {
-    /* this is for mobile*/
-    body {
-
-      background-size:cover;
-    }
-
-    @media only screen and (max-width: 768px) {
-      /* this is for tablets */
-      body {
-
-        background-size:cover;
-      }
-
-      @media only screen and (max-width: 320px) {
-        /* this is for mobile*/
-        body {
-        
-          background-size:cover;
-        }
-
-      }
