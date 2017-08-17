@@ -54,9 +54,11 @@ fetch(url + string + "&limit=8")
            `;
            resultsSection.appendChild(div);
 
-      }
-    })
 
+      }
+
+    })
+document.querySelector(".music-player").reset();
     })
 
 
